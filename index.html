@@ -1,77 +1,102 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <script type="text/javascript" src="javascript/api.js"></script>
-    </head>
-    <body>
-        <div id="left-column">
-            <img src="images/eyes_01.png" class="draggable"/>
-            <img src="images/eyes_02.png" class="draggable"/>
-            <img src="images/eyes_03.png" class="draggable"/>
-            <img src="images/eyes_04.png" class="draggable"/>
-            <img src="images/eyes_05.png" class="draggable"/>
-            <img src="images/eyes_06.png" class="draggable"/>
-            <img src="images/eyes_07.png" class="draggable"/>
-            <img src="images/eyes_08.png" class="draggable"/>
+<html lang="en">
 
-            <img src="images/glasses_01.png" class="draggable"/>
-            <img src="images/glasses_02.png" class="draggable"/>
-            <img src="images/glasses_03.png" class="draggable"/>
-            <img src="images/glasses_04.png" class="draggable"/>
-            <img src="images/glasses_05.png" class="draggable"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Character Builder</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="javascript/api.js"></script>
+</head>
 
-            <img src="images/mouth_01.png" class="draggable"/>
-            <img src="images/mouth_02.png" class="draggable"/>
-            <img src="images/mouth_03.png" class="draggable"/>
-            <img src="images/mouth_04.png" class="draggable"/>
-            <img src="images/mouth_05.png" class="draggable"/>
-            <img src="images/mouth_06.png" class="draggable"/>
-            <img src="images/mouth_07.png" class="draggable"/>
-            <img src="images/mouth_08.png" class="draggable"/>
+<body>
+    <header>
+        <img src="images/fantasy-logo.png" id="logo" alt="Fantasy Logo" />
+    </header>
 
-            <img src="images/shoe_01_L.png" class="draggable"/>
-            <img src="images/shoe_01_R.png" class="draggable"/>
-            <img src="images/shoe_02_L.png" class="draggable"/>
-            <img src="images/shoe_02_R.png" class="draggable"/>
+    <main>
+        <section id="left-column">
 
-            <img src="images/pants_01.png" class="draggable"/>
-            <img src="images/pants_02.png" class="draggable"/>
-            <img src="images/pants_03.png" class="draggable"/>
-            <img src="images/pants_04.png" class="draggable"/>
-            <img src="images/pants_05.png" class="draggable"/>
+            <h2>Wardrobe</h2>
+            <div class="item-category">
+                <h3>Wizard Hats</h3>
+                <img src="images/wizard-hat-1.png" class="draggable" alt="Wizard Hat 1" />
+                <img src="images/wizard-hat-2.png" class="draggable" alt="Wizard Hat 2" />
+                <img src="images/wizard-hat-3.png" class="draggable" alt="Wizard Hat 3" />
+                <img src="images/wizard-hat-4.png" class="draggable" alt="Wizard Hat 4" />
+                <img src="images/wizard-hat-5.png" class="draggable" alt="Wizard Hat 5" />
+            </div>
 
-            <img src="images/shirt_01.png" class="draggable"/>
-            <img src="images/shirt_02.png" class="draggable"/>
-            <img src="images/shirt_03.png" class="draggable"/>
-            <img src="images/shirt_04.png" class="draggable"/>
-            <img src="images/shirt_05.png" class="draggable"/>
+            <div class="item-category">
+                <h3>Magic Wands</h3>
+                <img src="images/magic-wand-1.png" class="draggable" alt="Magic Wand 1" />
+                <img src="images/magic-wand-2.png" class="draggable" alt="Magic Wand 2" />
+                <img src="images/magic-wand-3.png" class="draggable" alt="Magic Wand 3" />
+                <img src="images/magic-wand-4.png" class="draggable" alt="Magic Wand 4" />
+                <img src="images/magic-wand-5.png" class="draggable" alt="Magic Wand 5" />
+            </div>
 
-            <img src="images/face-hair_01.png" class="draggable"/>
-            <img src="images/face-hair_02.png" class="draggable"/>
-            <img src="images/face-hair_03.png" class="draggable"/>
-            <img src="images/face-hair_04.png" class="draggable"/>
-            <img src="images/face-hair_05.png" class="draggable"/>
+            <div class="item-category">
+                <h3>Eyes</h3>
+                <img src="images/eyes_01.png" class="draggable" alt="Eyes 1" />
+                <img src="images/eyes_02.png" class="draggable" alt="Eyes 2" />
+                <img src="images/eyes_03.png" class="draggable" alt="Eyes 3" />
+                <img src="images/eyes_04.png" class="draggable" alt="Eyes 4" />
+                <img src="images/eyes_05.png" class="draggable" alt="Eyes 5" />
+            </div>
 
-            <img src="images/hair_01.png" class="draggable"/>
-            <img src="images/hair_02.png" class="draggable"/>
-            <img src="images/hair_03.png" class="draggable"/>
-            <img src="images/hair_04.png" class="draggable"/>
-            <img src="images/hair_05.png" class="draggable"/>
-            <img src="images/hair_06.png" class="draggable"/>
-            <img src="images/hair_07.png" class="draggable"/>
+            <div class="item-category">
+                <h3>Swords</h3>
+                <img src="images/sword-1.png" class="draggable" alt="Sword 1" />
+                <img src="images/sword-2.png" class="draggable" alt="Sword 2" />
+                <img src="images/sword-3.png" class="draggable" alt="Sword 3" />
+                <img src="images/sword-4.png" class="draggable" alt="Sword 4" />
+                <img src="images/sword-5.png" class="draggable" alt="Sword 5" />
+            </div>
 
-            <img src="images/hat_01.png" class="draggable"/>
-            <img src="images/hat_02.png" class="draggable"/>
-            <img src="images/hat_03.png" class="draggable"/>
-            <img src="images/hat_04.png" class="draggable"/>
-            <img src="images/hat_05.png" class="draggable"/>
-        </div>
+            <div class="item-category">
+                <h3>Shields</h3>
+                <img src="images/shield-1.png" class="draggable" alt="Shield 1" />
+                <img src="images/shield-2.png" class="draggable" alt="Shield 2" />
+                <img src="images/shield-3.png" class="draggable" alt="Shield 3" />
+                <img src="images/shield-4.png" class="draggable" alt="Shield 4" />
+                <img src="images/shield-5.png" class="draggable" alt="Shield 5" />
+            </div>
 
-        <div id="right-column">
-            <img src="images/stickman.png"/>
-            <img src="images/logo.png" id="logo"/>
-        </div>
+            <div class="item-category">
+                <h3>Helmets</h3>
+                <img src="images/helmet-1.png" class="draggable" alt="Helmet 1" />
+                <img src="images/helmet-2.png" class="draggable" alt="Helmet 2" />
+                <img src="images/helmet-3.png" class="draggable" alt="Helmet 3" />
+                <img src="images/helmet-4.png" class="draggable" alt="Helmet 4" />
+                <img src="images/helmet-5.png" class="draggable" alt="Helmet 5" />
+            </div>
 
-    </body>
+            <div class="item-category">
+                <h3>Body Armour</h3>
+                <img src="images/body-armour-1.png" class="draggable" alt="Body Armour 1" />
+                <img src="images/body-armour-2.png" class="draggable" alt="Body Armour 2" />
+                <img src="images/body-armour-3.png" class="draggable" alt="Body Armour 3" />
+                <img src="images/body-armour-4.png" class="draggable" alt="Body Armour 4 " />
+                <img src="images/body-armour-5.png" class="draggable" alt="Body Armour 5" />
+            </div>
+
+            <div class="item-category">
+                <h3>Left Boots</h3>
+                <img src="images/left-boot.png" class="draggable" alt="Left Boot 1" />
+            </div>
+
+            <div class="item-category">
+                <h3>Right Boots</h3>
+                <img src="images/right-boot.png" class="draggable" alt="Right Boot 1" />
+            </div>
+        </section>
+
+        <section id="right-column">
+            <h2>Character Preview</h2>
+            <img src="images/character.png" id="main-character" alt="Main Character" />
+        </section>
+        
+    </main>
+</body>
 </html>
